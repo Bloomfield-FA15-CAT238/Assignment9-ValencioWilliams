@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Win2 : MonoBehaviour {
 	public GameController gameController;
+	public GameObject respawnPoint;
 
 	// Use this for initialization
 	void Start () {

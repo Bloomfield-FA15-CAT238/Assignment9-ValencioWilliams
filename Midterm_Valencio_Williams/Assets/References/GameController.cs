@@ -9,10 +9,12 @@ public class GameController : MonoBehaviour {
 	public ParticleSystem winningParticles;
 
 	public Text hud;
+	//public Text deaths;
 	public Canvas gameOverUI;
 
 	//The amount of ellapsed time
 	private float time = 0;
+	public int death = 0;
 	
 	//Flag that control the state of the game
 	private bool isRunning = false;
@@ -27,8 +29,14 @@ public class GameController : MonoBehaviour {
 		if (isRunning) {
 			time += Time.deltaTime;
 			hud.text = "Your time is " + (int)time;
-		} else {
+			//deaths.text = "Deaths " + (int)death;
+
+		} 
+		else
+		{
 			hud.text = "Your time was " + time; 
+			//deaths.text = "You died " + (int)death;
+
 		}
 
 		if(Input.GetAxis("Restart")>0) {
@@ -38,6 +46,7 @@ public class GameController : MonoBehaviour {
 
 	public void RespawnPlayer() {
 		player.gameObject.transform.position = respawnPoint.transform.position;
+		//death = death + 1;
 	}
 
 	public void InitGame() {
@@ -53,8 +62,8 @@ public class GameController : MonoBehaviour {
 
 	public void Win() {
 		isRunning = false;
-
 		gameOverUI.enabled = true;
 		winningParticles.Play();
+
 	}
 }
