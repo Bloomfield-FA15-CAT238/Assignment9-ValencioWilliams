@@ -18,10 +18,12 @@ public class GameController : MonoBehaviour {
 	
 	//Flag that control the state of the game
 	private bool isRunning = false;
-
+	
 	// Use this for initialization
 	void Start () {
 		InitGame();
+
+
 	}
 	
 	// Update is called once per frame
@@ -61,9 +63,10 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void Win() {
-		isRunning = false;
-		gameOverUI.enabled = true;
-		winningParticles.Play();
+			isRunning = false;
+			gameOverUI.enabled = true;
+			winningParticles.Play ();
+
 
 	}
 }

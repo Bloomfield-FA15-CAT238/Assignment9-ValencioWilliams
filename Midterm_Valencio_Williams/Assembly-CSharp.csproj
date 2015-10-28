@@ -49,9 +49,14 @@
      <Compile Include="Assets\References\Deaths.cs" />
      <Compile Include="Assets\References\GameController.cs" />
      <Compile Include="Assets\References\Hazard.cs" />
+     <Compile Include="Assets\References\LoadLevel.cs" />
+     <Compile Include="Assets\References\LoadLevelA.cs" />
+     <Compile Include="Assets\References\LoadMenu.cs" />
+     <Compile Include="Assets\References\Pickup.cs" />
      <Compile Include="Assets\References\Respawn.cs" />
      <Compile Include="Assets\References\Win.cs" />
      <Compile Include="Assets\References\Win2.cs" />
+     <Compile Include="Assets\References\Win3.cs" />
      <Compile Include="Assets\UnityScripting\Assets\Scripts\BasicScript.cs" />
      <Compile Include="Assets\UnityScripting\Assets\Scripts\Crash.cs" />
      <Compile Include="Assets\UnityScripting\Assets\Scripts\LightScript.cs" />
@@ -69,17 +74,11 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

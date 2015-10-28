@@ -15,12 +15,7 @@ public class Hazard : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		/*while (Game.RespawnPlayer())
-		{
-			death = death + 1;
-			print ("You have died: " + death);
-		}
-		*/
+
 
 	}
 
@@ -28,6 +23,9 @@ public class Hazard : MonoBehaviour {
 		//Game.RespawnPlayer();
 
 		other.gameObject.transform.position = respawnPoint.transform.position;
+		death = death + 1;
+		print ("You have died " + death + " times");
+	
 	}
 
 

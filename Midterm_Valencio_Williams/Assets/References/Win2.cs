@@ -16,6 +16,8 @@ public class Win2 : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		gameController.Win();
+		Application.LoadLevel (2);
+		//gameController.Win();
+
 	}
 }
