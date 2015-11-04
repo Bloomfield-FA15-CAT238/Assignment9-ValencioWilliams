@@ -15,6 +15,7 @@ using System.Collections;
 
 		if (key == 1) {
 			Destroy (GameObject.FindWithTag("Gate"));
+			print ("Collected " + key + " key");
 
 		}
 

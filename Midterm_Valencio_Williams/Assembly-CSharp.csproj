@@ -48,7 +48,9 @@
      <Compile Include="Assets\Key\Key Properties.cs" />
      <Compile Include="Assets\References\Deaths.cs" />
      <Compile Include="Assets\References\GameController.cs" />
+     <Compile Include="Assets\References\GameController2.cs" />
      <Compile Include="Assets\References\Hazard.cs" />
+     <Compile Include="Assets\References\LevelUp.cs" />
      <Compile Include="Assets\References\LoadLevel.cs" />
      <Compile Include="Assets\References\LoadLevelA.cs" />
      <Compile Include="Assets\References\LoadMenu.cs" />

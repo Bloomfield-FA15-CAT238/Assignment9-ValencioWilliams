@@ -7,7 +7,6 @@ public class Win3 : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		
 	}
 	
 	// Update is called once per frame
@@ -17,5 +16,7 @@ public class Win3 : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other) {
 		Application.LoadLevel (3);
+		GameController gca = GameObject.FindWithTag("GameController").GetComponent<GameController>();
+		gca.DeletePlayerValues();
 	}
 }
